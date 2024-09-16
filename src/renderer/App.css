@@ -1,0 +1,84 @@
+/*
+ * @NOTE: Prepend a `~` to css file paths that are in your node_modules
+ *        See https://github.com/webpack-contrib/sass-loader#imports
+ */
+body {
+  position: relative;
+  font-family: "Inter", sans-serif !important;
+  color: black;
+  height: 100vh;
+  font-family: sans-serif;
+  overflow-y: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+    font-family: "Inter", Sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    transition-duration: 0.2s;
+    background-color: transparent;
+    background-image: linear-gradient(282deg, #7634DE 0%, #6D28D9 100%);
+    border-style: solid;
+    border-width: 3px 0px 0px 0px;
+    border-color: #8B5CF6;
+    border-radius: 13px;
+    padding: 13px 22px 15px 22px;
+    color: white;
+    appearance: none;
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+h1, h2, h3, h4 {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+}
+
+button:hover {
+  transform: scale(1.05);
+  opacity: 1;
+}
+
+ol {
+  margin-left: -20px;
+  line-height: 1.6;
+}
+
+a {
+  text-decoration: none;
+  height: fit-content;
+  width: fit-content;
+  margin: 10px;
+}
+
+a:hover {
+  opacity: 1;
+  text-decoration: none;
+}
+
+.Hello {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+}
+
+
+/* Select software */
+#select-software {
+  margin-bottom: 20px;
+}
+
+#edit-software__btn {
+  background-color: transparent !important;
+  border: none !important;
+  cursor: pointer !important;
+}
+
+#edit-software__icon {
+  color: white;
+  height: 20px;
+}
